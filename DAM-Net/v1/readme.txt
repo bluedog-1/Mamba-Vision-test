@@ -1,0 +1,1 @@
+mamba  attention 分通道处理 然后合并

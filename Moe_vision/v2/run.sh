@@ -1,0 +1,2 @@
+
+torchrun --nproc_per_node=2 --nnodes=1 --node_rank=0 main.py --num_worker=8 --warmup_epochs=15 --epochs=300 --batch_size=128 --lr=1e-3 --max_lr=1e-3 --min_lr=1e-6 --resume='/home/shulab/wyc/M3A_vision/checkpoint_epoch_240.pth' 2>&1 | tee output.log
